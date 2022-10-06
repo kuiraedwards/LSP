@@ -33,10 +33,9 @@ public class Driver {
 	    System.out.println("Value of Set2 is: " + set2.toString() + " with length ");
 	    System.out.print(set2.length());
 	    System.out.println("Is 3 in Set2? " + set2.contains(3));
-	    System.out.println("Union of Set1 and Set2: ");
 	    set1.union(set2);	// union of set1 and set2
 	    System.out.println("Result of union of Set1 and Set2");
-	    set1.toString();
+	    System.out.println(set1.toString());
 	    
 	    set1.clear();
 	    set1.add(1);
@@ -49,6 +48,7 @@ public class Driver {
 	    
 	    set1.diff(set2);
 	    System.out.println("The set difference of Set1 and Set2 is: ");
+	    System.out.println(set1.toString());
 	    
 	    set1.clear();
 	    set1.add(1);
@@ -61,6 +61,7 @@ public class Driver {
 	    
 	    set1.intersection(set2);
 	    System.out.println("Intersection of Set1 and Set2: ");
+	    System.out.println(set1.toString());
 	    
 	    set1.remove(1);
 	    set1.remove(2);
